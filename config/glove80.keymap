@@ -63,14 +63,6 @@
           key-positions = <49 50>;
           bindings = <&kp LA(LC(LSHFT))>;
         };
-      };
-      // combo_ctrlspc {
-      //     timeout-ms = <30>;
-      //     key-positions = <41 43>;
-      //     bindings = <&kp LCTRL>;
-      //     layers = <0>;
-      //     require-prior-idle-ms = <10>;
-      // };
     };
 
     macros {
