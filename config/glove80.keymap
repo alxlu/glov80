@@ -41,6 +41,38 @@
         };
     };
 
+    combos {
+      compatible = "zmk,combos";
+      combo_ctrlspc {
+          timeout-ms = <30>;
+          key-positions = <41 42>;
+          bindings = <&kp LC(SPACE)>;
+        };
+        combo_shiftctrlspc {
+          timeout-ms = <30>;
+          key-positions = <41 43>;
+          bindings = <&kp LS(LC(SPACE))>;
+        };
+        combo_cmdspc {
+          timeout-ms = <30>;
+          key-positions = <41 30>;
+          bindings = <&kp LG(SPACE)>;
+        };
+        commbo_meh {
+          timeout-ms = <30>;
+          key-positions = <49 50>;
+          bindings = <&kp LA(LC(LSHFT))>;
+        };
+      };
+      // combo_ctrlspc {
+      //     timeout-ms = <30>;
+      //     key-positions = <41 43>;
+      //     bindings = <&kp LCTRL>;
+      //     layers = <0>;
+      //     require-prior-idle-ms = <10>;
+      // };
+    };
+
     macros {
         rgb_ug_status_macro: rgb_ug_status_macro_0 {
             label = "RGB_UG_STATUS";
