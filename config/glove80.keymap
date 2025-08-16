@@ -13,6 +13,7 @@
 
 #define HYPER LC(LS(LG(LALT)))
 #define AC LC(LALT)
+#define CC LC(LGUI)
 
 // layers
 #define DEFAULT 0
@@ -135,8 +136,8 @@
             &kp EQUAL      &kp N1       &kp N2      &kp N3      &kp N4      &kp N5                                                                          &kp N6  &kp N7  &kp N8      &kp N9      &kp N0         &kp MINUS
             &mt LALT TAB   &kp Q        &kp W       &lt TMUX E  &kp R       &kp T                                                                           &kp Y   &kp U   &lt BRACE I &kp O       &kp P          &kp BSLH
             &mt LGUI ESC   &lt KEYPD A  &lt ARROW S &kp D       &kp F       &lt BROW G                                                                      &kp H   &kp J   &kp K       &kp L       &kp SEMI       &mt RGUI SQT
-            &kp LSHIFT     &mt LCTRL Z  &kp X       &kp C       &kp V       &kp B      &mt AC TILDE    &kp TAB     &layer_td  &kp LGUI  &kp RCTRL &kp RSHIFT     &kp N   &kp M   &kp COMMA   &kp DOT     &mt RCTRL FSLH &kp RSHIFT
-            &magic MAGIC 0 &kp LCTRL    &kp LALT    &kp LGUI    &kp BKSP               &kp SPACE       &kp DEL     &kp LGUI   &kp RALT  &kp RET  &kp ENTER             &kp UP  &kp DOWN    &kp LBKT    &kp RBKT       &kp PG_DN
+            &kp LSHIFT     &mt LCTRL Z  &kp X       &kp C       &kp V       &kp B      &mt CC TILDE    &kp TAB        &layer_td  &kp LGUI  &kp RCTRL &kp RSHIFT     &kp N   &kp M   &kp COMMA   &kp DOT     &mt RCTRL FSLH &kp RSHIFT
+            &magic MAGIC 0 &kp LCTRL    &kp LALT    &kp LGUI    &kp BKSP               &kp SPACE       &kp LSHIFT     &kp LGUI   &kp RALT  &kp RET  &kp ENTER             &kp UP  &kp DOWN    &kp LBKT    &kp RBKT       &kp PG_DN
             >;
         };
 
